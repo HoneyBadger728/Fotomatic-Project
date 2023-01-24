@@ -64,6 +64,7 @@ header .logo {
   font-family: Roboto-Mono-Regular;
   text-decoration: none;
   color: #4a4a4a;
+  letter-spacing: .05em;
 }
 
 header nav ul {
