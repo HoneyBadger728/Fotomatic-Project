@@ -217,6 +217,7 @@ header .tablet {
     height: auto;
     background-color: transparent;
     border: none;
+    margin: auto;
   }
 
   #sign-up-cta .content {
@@ -229,10 +230,14 @@ header .tablet {
 
   #sign-up-cta h1 {
     font-size: 3.125rem;
+    margin-top: 0;
+    font-weight: 500;
   }
 
   #sign-up-cta h2 {
     font-size: 2.25rem;
+    margin-bottom: 0;
+    font-weight: 500;
   }
 }
 
@@ -304,7 +309,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   #features-section {
     flex-flow: column;
     padding: 0;
