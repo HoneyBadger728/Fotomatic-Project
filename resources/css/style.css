@@ -110,7 +110,7 @@ header .tablet {
   }
 
   header .content {
-    padding: .5rem 1.85rem;
+    padding: .5rem .6rem;
   }
 
   header .tablet ul {
@@ -118,16 +118,16 @@ header .tablet {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-left: 1.8rem;
+    padding-left: 2.5rem;
   }
 
   header .logo {
-    font-size: 4.5vw;
+    font-size: 5vw;
   }
 
   header .tablet li {
-    padding: .2rem;
-    margin: 0;
+    padding: 0rem;
+    margin: 0rem;
   }
 
   header .icon {
@@ -135,7 +135,7 @@ header .tablet {
   }
 
   nav a {
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
 
   header .button {
@@ -357,7 +357,7 @@ header .tablet {
   width: 100%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -412,10 +412,29 @@ header .tablet {
   height: 1.875rem;
 }
 
+@media only screen and (max-width: 760px) {
+  #quotes-section .content {
+    display: flex;
+    align-items: start;
+    margin: 1em;
+  }
+
+  #quotes-section .quote-citation {
+    display: block;
+    padding-top: .5em;
+    margin: 0;
+}
+}
+
 @media only screen and (max-width: 450px) {
   #quotes-section {
     padding: 1.875rem .625rem;
   }
+
+  #quotes-section .content {
+    display: block;
+  }
+
 
   #quotes-section .quote {
     font-size: 1.5rem;
@@ -446,7 +465,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
