@@ -147,6 +147,43 @@ header .tablet {
 
 }
 
+@media only screen and (max-width: 450px) {
+ header {
+  height: 3rem;
+ }
+ 
+  header .tablet,
+  header .logo {
+    display: none;
+  }
+
+  header .mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  header .mobile li {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  header .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+  }
+
+
 /* Sign Up Section */
 
 #sign-up-section {
