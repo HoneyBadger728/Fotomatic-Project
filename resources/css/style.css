@@ -269,10 +269,10 @@ header .tablet {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  max-height: 635px;
 }
 
 .feature .image-container {
-  width: 90%;
   height: 65%;
   margin: 0 auto;
 }
@@ -412,17 +412,17 @@ header .tablet {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
+@media only screen and (max-width: 450px) {
+  #quotes-section {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
